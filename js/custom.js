@@ -111,4 +111,9 @@ var customScripts = {
 $('document').ready(function () {
     customScripts.init(); 
 	$('.carousel').carousel();
+	
+	$('.navbar-collapse ul li a').click(function(){
+$('.navbar-toggle:visible').click();
+});
+	
 });
